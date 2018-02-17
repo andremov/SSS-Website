@@ -6,36 +6,79 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/stolen-goods.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <title>Sandstorm Studios</title>
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <style>
-      nav {
-              height: 150px;
-          line-height: 80px;
-      }
-    </style>
   </head>
 
   <body>
 
-    <nav>
+    <nav class="orange">
       <div class="nav-content">
-        <a href="#" class="brand-logo"><img src="assets/logo.png" width="150" height="150"></a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <br>
-          <li><a href="/about"><h4>About</h4></a></li>
-          <li><a href="/games"><h4>Games</h4></a></li>
-          <li><a href="/contact"><h4>Contact</h4></a></li>
-          <li><a href="/press"><h4>Press</h4></a></li>
-
+        <a href="#" class="brand-logo filled-button"><img src="assets/logo.png" width="80" height="80"></a>
+        <ul class="right hide-on-med-only">
+<!--
+          <li><a href="/about" class="filled-button red lighten-1"><i class="material-icons">info</i>About</a></li>
+          <li><a href="/games" class="filled-button red lighten-1"><i class="material-icons">games</i>Games</a></li>
+          <li><a href="/contact" class="filled-button red lighten-1"><i class="material-icons">person</i>Contact</a></li>
+          <li><a href="/press" class="filled-button red lighten-1"><i class="large material-icons">mic</i>Press</a></li>
+-->
         </ul>
       </div>
     </nav>
 
+    <br><br><br><br>
 
 
+    <div class="row orange lighten-2">
+
+      <div class="col s6 game-picture blur">
+          <img  src="assets/capture5.png" width="100%">
+      </div>
+
+      <div class="col s6">
+        <center>
+        <h1>Nabú</h1>
+        Infiltration game, with the main character having the ability to hack
+        into the network mainframe until you reach the captain's room.
+        <br><br>
+        Developed for the Global Game Jam 2018.
+
+        <div class="bottom-center">
+          <a href="https://globalgamejam.org/2018/games/nabu" class="filled-button red darken-1"><h5>Check it out!</h5></a>
+          <br><br>
+          <img src="assets/winicon.svg" width=4%>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="row yellow lighten-3">
+
+      <div class="col s6">
+        <center>
+        <h1>Blind Odyssey</h1>
+        You take control of X-64 in his journey to find LiLi. Explore the
+        ocean's depth in an environment full of darkness, and manage your way
+        through using waves of light.
+        <br><br>
+        Developed for the Global Game Jam 2017.
+
+        <div class="bottom-center">
+          <a href="https://globalgamejam.org/2017/games/blind-odyssey-0" class="filled-button red darken-1"><h5>Check it out!</h5></a>
+          <br><br>
+          <img src="assets/winicon.svg" width=4%>
+        </div>
+      </div>
+
+        <div class="col s6 game-picture">
+            <img  src="assets/capture2.png" width="100%">
+        </div>
+    </div>
 
 
 
@@ -43,7 +86,7 @@
 
 
 
-  <footer class="page-footer color-primary-2">
+  <footer class="page-footer amber">
     <div class="container">
       <div class="row">
 
@@ -60,8 +103,8 @@
 
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="../js/materialize.js"></script>
-
+    <script src="js/materialize.js"></script>
+    <script src="js/stolen-goods.js"></script>
   </body>
 
 </html>

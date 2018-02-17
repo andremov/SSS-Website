@@ -1,0 +1,46 @@
+li a {
+    display: block;
+    width: 80px;
+    height: 80px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.button-block {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+nav {
+    height: 80px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.row .col{
+    padding: 0 !important;
+}
+
+.row {
+  margin-bottom: 0px;
+}
+
+.bottom-center {
+    position: relative;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.game-picture {
+  margin-bottom: -6px;
+}
+
+.blur {
+  -webkit-filter: blur(2px); /* Safari */
+    filter: blur(2px);
+}

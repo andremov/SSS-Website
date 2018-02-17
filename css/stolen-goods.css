@@ -1,0 +1,71 @@
+/*buttons*/
+@keyframes filled-button-in {
+	from {
+		background-position: 200% 0%;
+	}
+	to {
+		background-position: 0% 0%;
+	}
+}
+
+@keyframes filled-button-out {
+	from {
+		background-position: 0% 0%;
+	}
+	to {
+		background-position: 0% 200%;
+	}
+}
+
+.filled-button {
+	position: relative;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 10px;
+	white-space: nowrap;
+	color: #ededed;
+	padding: 10px;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+	animation-duration: 0.5s;
+	animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+	transition: 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.filled-button:hover {
+	color: #ededed;
+	transform: scale(1.1);
+}
+
+.filled-button-in {
+	background-size: 200% 200%;
+	background-position: 200% 0%;
+	background-repeat: no-repeat;
+	background-image: linear-gradient(to top right, transparent 25%, #ededed 25%, #ededed 75%, transparent 75%);
+	animation-name: filled-button-in;
+}
+
+.filled-button-out {
+	background-size: 200% 200%;
+	background-position: 200% 0%;
+	background-repeat: no-repeat;
+	background-image: linear-gradient(to top right, transparent 25%, #ededed 25%, #ededed 75%, transparent 75%);
+	animation-name: filled-button-out;
+}
+
+a {
+	color: #421a00;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #421a00;
+}
+
+a:focus {
+	outline: 0;
+}
+
+a:hover, a:active {
+	outline: 0;
+}
